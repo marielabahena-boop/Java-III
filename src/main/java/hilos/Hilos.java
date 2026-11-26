@@ -19,7 +19,7 @@ class MiHilo extends Thread {
 }
 public class Hilos {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello World, mis hilos son los mejores!");
         MiHilo hilo = new MiHilo();
         hilo.start();
     }
